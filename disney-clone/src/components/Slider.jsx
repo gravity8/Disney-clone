@@ -27,10 +27,6 @@ useEffect(()=>{
     const sliderLeft =(element)=>{
         element.scrollLeft-=screenWidth -110
     }
-    
-    // setInterval(() => {
-    //     elementRef.current.scrollLeft+=screenWidth -109
-    // }, 7000);
 
   return (
     <div>
@@ -46,7 +42,6 @@ useEffect(()=>{
             hover:border-[4px] border-gray-400 transition-all duration-500 ease-in-out' />
             </>
         )
-            
         )}
         </div>
     </div>
